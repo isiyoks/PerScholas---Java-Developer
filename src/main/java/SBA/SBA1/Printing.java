@@ -17,25 +17,6 @@ Print : Number 2 is 9
 Print : Number 3 is 7
  */
 public class Printing {
-/*
-    public static void printEachDigit() {
-        Scanner scan = new Scanner(System.in);
-
-        int num;
-        String stringNum = "";
-
-            System.out.println("Enter a number that has the length of between 2 and 100");
-            num = scan.nextInt();
-            stringNum = Integer.toString(num);
-
-            for (int i = 0; i < stringNum.length(); i++) {
-                int count = 1;
-                char digit = stringNum.charAt(i);
-                System.out.println("Print : Number " + count + " is " + digit);
-                count++;
-            }
-        }
-     */
 public static void printDigitsWithString(String s) {
     for (int i = 0; i < s.length(); i++) {
         char digit = s.charAt(i);
