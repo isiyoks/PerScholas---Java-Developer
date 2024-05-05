@@ -16,8 +16,13 @@ public class Subtraction {
 
     public static int subtractDigits() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Write a number that its length is between 2 - 100");
-        String number = scan.nextLine();
+        String number;
+
+        do {
+            System.out.println("Write a number that its length is between 2 - 100");
+            number = scan.nextLine();
+        }while(number.length()<2 || number.length()>100);
+
 
         int result = Character.getNumericValue(number.charAt(0));
 
