@@ -26,7 +26,5 @@ public class LinkedListsortExample {
 
 //Custom sorted
         System.out.println(linkedList);
-
-
     }
 }
