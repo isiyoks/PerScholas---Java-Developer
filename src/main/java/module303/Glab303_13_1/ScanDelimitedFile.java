@@ -14,7 +14,7 @@ public class ScanDelimitedFile {
     public static void main(String[] args) throws FileNotFoundException {
 
         try {
-            File file = new File("module303/cars.csv");
+            File file = new File("resources/cars.csv");
             Scanner scan = new Scanner(file);
 
             ArrayList<String[]> lines = new ArrayList<>();
